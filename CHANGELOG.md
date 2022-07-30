@@ -1,4 +1,10 @@
+# 7/29/22
+- Started adding bootstrap
+- Made base.html so I can extend it as a template to other templates 
+- Added /books
+- Added ability to upload txt files in /books
+
 # 7/28/22
-- setup dunder init file and setup.py using [large applications guide](https://flask.palletsprojects.com/en/2.1.x/patterns/packages/)
+- Setup dunder init file and setup.py using [large applications guide](https://flask.palletsprojects.com/en/2.1.x/patterns/packages/)
 - Created hello world index page 
   
