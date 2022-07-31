@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block title %}Upload{% endblock %}
+
+{% block content %}
+<form method=post enctype=multipart/form-data>
+    <input type=file name=file>
+    <input type=submit value=Upload>
+</form>
+
+
+
+{% for msg in get_flashed_messages() %} 
+<h1>{{msg}}</h1> 
+{% endfor %}
+
+{% endblock %} 
+
